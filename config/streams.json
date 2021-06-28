@@ -5,7 +5,7 @@
       "streamId": "pages-locations",
       "soyTemplateEntityPageSet": {
         "htmlTemplate": "soy.eps.content",
-        "urlTemplate": "soy.eps.url2"
+        "urlTemplate": "soy.eps.url"
       }
     }
   ]
