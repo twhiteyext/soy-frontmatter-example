@@ -23,6 +23,6 @@
   	},
   	"livePreview": {
     	"serveSetupCmd": ":",
-    	"serve_cmd": ":"
+    	"serve_cmd": "echo asdf"
   	}
 }
