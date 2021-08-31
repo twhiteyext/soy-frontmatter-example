@@ -1,3 +1,26 @@
+---
+{
+    "stream": {
+        "$id": "soy-testing",
+        "source": "knowledgeGraph",
+        "destination": "pages",
+        "fields": [
+            "description",
+            "meta",
+            "id",
+            "timezone"
+        ],
+        "filter": {
+            "entityTypes": [
+                "location"
+            ]
+        }
+    },
+    "urlTemplate": "soy.eps.url"
+}
+---
+
+
 {namespace soy.eps}
 
 /**
@@ -33,9 +56,8 @@
 {/template}
 
 /**
- * @param locale
  * @param profile
  */
 {template .url}
-kg-soy-{$locale}-{$profile.meta.yextId}
+kg-soy-{$profile.meta.locale}-{$profile.meta.yextId}
 {/template}
