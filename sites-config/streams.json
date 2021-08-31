@@ -1,12 +1,3 @@
 {
-  "features": [
-    {
-      "name": "Soy Pages",
-      "streamId": "pages-locations",
-      "soyTemplateEntityPageSet": {
-        "htmlTemplate": "soy.eps.content",
-        "urlTemplate": "soy.eps.url"
-      }
-    }
-  ]
+  "features": []
 }
