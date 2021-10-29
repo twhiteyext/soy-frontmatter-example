@@ -2,7 +2,7 @@
   "$id": "updateEntity",
   "$schema": "https://schema.yext.com/config/platform/plugin/v1",
   "globals": {
-    "YEXT_API_KEY": "4695f5cad11352406c4f53e494c10ee5",
+    "YEXT_API_KEY": "9c0c3cc6445b71a0ac10c20fda391c8f",
     "FIELD_KEY": "additionalHoursText"
   }
 }

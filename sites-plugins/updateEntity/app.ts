@@ -18,8 +18,7 @@ export async function handleEntityUpdate(data: EntityUpdate) {
 }
 
 export async function updateEntityUrl(data: EntityUpdate) {
-  // let updateField = {"meta.language": data.locale}
-  let updateField = {}
+  let updateField = {"meta.language": data.locale}
   updateField[FIELD_KEY] = data.path
   let result = await updateEntity(data.entityId, updateField)
   return result
