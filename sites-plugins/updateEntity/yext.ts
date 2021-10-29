@@ -81,6 +81,7 @@ export async function updateEntity<T extends EntityProfile>(
     headers: { "Content-Type": "application/json; charset=utf-8" },
   });
   const response = await fetch(req);
+  await response.body.close()
   if (response.status < 200 || response.status >= 300) {
     throw response.json
   }
