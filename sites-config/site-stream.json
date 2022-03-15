@@ -1,0 +1,13 @@
+{
+    "$id": "testStream8",
+    "localization": {"locales": ["en"]},
+    "fields": [
+      "id",
+      "meta",
+      "name",
+      "address"
+    ],
+    "filter": {
+      "entityIds": ["7782883828759792709"]
+    }
+}
