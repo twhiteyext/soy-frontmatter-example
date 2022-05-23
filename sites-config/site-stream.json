@@ -4,10 +4,9 @@
     "fields": [
       "id",
       "meta",
-      "name",
-      "address"
+      "name"
     ],
     "filter": {
-      "entityIds": ["7782883828759792709"]
+      "entityIds": ["2834656344742336915"]
     }
 }
