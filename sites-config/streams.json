@@ -1,5 +1,6 @@
 {
   "features": [],
   "locales": ["en"],
-  "templateVersion": 8
+  "templateVersion": 8,
+  "usesFrontmatter": true
 }
